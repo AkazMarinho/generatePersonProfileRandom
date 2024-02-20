@@ -1,0 +1,40 @@
+.HomeContent{
+    width: 100%;
+    background-color: #abb1fb;
+    position: relative;
+    height: 100vh;
+}
+
+.homeSection{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 635px;
+    height: 200px;
+    text-align: center;
+}
+
+.homeSection > h1 > span{
+    font-size: 50px;
+}
+
+.homeSection span{
+    font-size: 17px;
+}
+
+.homeSection button{
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+
+    background-color: #0b5abd;
+    color: #fff;
+    margin-top: 1rem;
+    font-size: 14px;
+}
+
+.homeSection button:hover{
+    background-image: linear-gradient(#0e67d3, #0b5abd);
+}
